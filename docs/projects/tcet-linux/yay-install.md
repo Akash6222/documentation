@@ -8,27 +8,29 @@ keywords: [tcet, open-source, linux]
 
 `yay` is an AUR (Arch User Repository) helper for Arch Linux. It simplifies the process of installing and managing software not available in the official Arch repositories. With a user-friendly interface, `yay` streamlines the installation of packages, handling dependencies and updates seamlessly. It enhances the Arch Linux experience by providing a convenient way to access a vast array of community-contributed packages.: to provide an efficient, customizable, and user-friendly environment suitable for a diverse range of users. TCET Linux was conceived with several key goals in mind:
 
-# Setting up Yay on Any Arch Linux System
+# Dependency
 
-1. Open a terminal and install `git` if not already installed:
+Open a terminal and install `git` if not already installed:
 
    ```bash
    sudo pacman -S git
    ```
 
-2. Clone the `yay` repository:
+# Yay on Any Arch Linux System
+
+1. Clone the `yay` repository:
 
    ```bash
    git clone https://aur.archlinux.org/yay.git
    ```
 
-3. Move into the cloned directory:
+2. Move into the cloned directory:
 
    ```bash
    cd yay
    ```
 
-4. Build and install `yay`:
+3. Build and install `yay`:
 
    ```bash
    makepkg -si
@@ -36,30 +38,12 @@ keywords: [tcet, open-source, linux]
 
 ---
 
-# Setting up Yay on Tcet Linux
+# Yay on Tcet Linux
 
-1. Ensure `git` is installed:
-
-   ```bash
-   sudo apt-get install git
-   ```
-
-2. Clone the `yay` repository:
+Open Terminal:
 
    ```bash
-   git clone https://aur.archlinux.org/yay.git
-   ```
-
-3. Move into the cloned directory:
-
-   ```bash
-   cd yay
-   ```
-
-4. Build and install `yay`:
-
-   ```bash
-   makepkg -si
+   install yay
    ```
 
 <br />
