@@ -16,7 +16,7 @@ Open a terminal and install `git` if not already installed:
    sudo pacman -S git
    ```
 
-# Yay on Any Arch Linux System
+# 1. Yay on Any Arch Linux System
 
 1. Clone the `yay` repository:
 
@@ -38,7 +38,7 @@ Open a terminal and install `git` if not already installed:
 
 ---
 
-# Yay on Tcet Linux
+# 2. Yay on Tcet Linux
 
 Open Terminal:
 
